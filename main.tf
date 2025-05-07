@@ -158,8 +158,8 @@ resource "azurerm_linux_virtual_machine" "slogr" {
 
      connection {
       type        = "ssh"
-      user        = "slogr" # Replace with your VM's admin username
-      password    = "Password1234!"  # Replace with your VM's admin password
+      user        = "ad" # Replace with your VM's admin username
+      password    = "pwd"  # Replace with your VM's admin password
       host        = self.public_ip_address
     }
 
